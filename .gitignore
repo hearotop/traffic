@@ -27,7 +27,25 @@ target/
 /.nb-gradle/
 build/
 
-./admin/node_modules/
-./front/node_modules/
+**/admin/node_modules/
+**/front/node_modules/
 ### VS Code ###
 .vscode/
+
+### Frontend IDE ###
+**/.idea/
+**/.idea/*
+
+# 临时文件
+~$*
+*.tmp
+
+# 系统缓存
+.DS_Store
+Thumbs.db
+
+# 本地调试文件
+部署调试服务.txt
+
+/admin/node_modules/
+/front/node_modules/
